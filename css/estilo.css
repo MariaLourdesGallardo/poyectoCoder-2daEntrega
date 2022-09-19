@@ -1,0 +1,12 @@
+
+/*------header-------*/
+nav{
+    justify-content: end;   
+}
+.navbar-nav{
+    width: 50%;    
+    justify-content: space-around;
+}
+header{
+    background-color: linear-gradient(#C4E9F9ff + #118BD1ff);
+}
