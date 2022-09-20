@@ -1,12 +1,64 @@
+*{
+    font-family: 'Muli', sans-serif;
+    text-decoration: none;
 
+}
 /*------header-------*/
 nav{
     justify-content: end;   
 }
-.navbar-nav{
-    width: 50%;    
-    justify-content: space-around;
+
+
+.nav-link{
+    color:rgb(9, 100, 139)
 }
-header{
-    background-color: linear-gradient(#C4E9F9ff + #118BD1ff);
+.navbar-toggler-icon{
+    color:rgb(9, 100, 139) ;
+}
+
+/*-----hero-----*/
+
+.hero{
+    height: 80vh;
+    
+    background-image: url(../assets/fondo-imagen.webp);
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero__text h1{
+    
+    font-size: 3rem;
+}
+.hero__text h2{
+    
+    font-size: 1.5rem;
+    text-align: center;
+}
+.hero__text{
+    
+
+    background: linear-gradient(to right,#0FA2E3ff,#C4E9F9ff,rgb(11, 77, 116));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/*------index main-----*/
+
+ul{
+    list-style-type: none;
+}
+h3{
+    color:rgb(9, 100, 139)
+}    
+
+/*------footer-----*/
+.bg_azul{
+    background-color:rgb(188, 210, 219)
+}
+.c_blanco{
+    color:rgb(9, 100, 139)
 }
