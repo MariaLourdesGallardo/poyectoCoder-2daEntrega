@@ -95,3 +95,69 @@ h3{
     background-color:rgb(17, 69, 92); 
     border: solid 2px rgb(226, 236, 240) ;
 }
+
+/*----pricing-----*/
+
+.fondo-imagen{
+    background-image:url(../assets/fondo-imagen.webp);
+    
+}
+.container__form{
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 10%;
+    justify-content: center;
+    background-color: rgba(105, 151, 173, 0.63);
+    margin: 0 100px;
+    padding: 10rem;
+    border: 50px solid transparent;
+    outline: 1px solid white;
+}
+
+.form{
+    min-width: 100px;
+    flex: 1;
+    text-align: center;
+}
+.form h2{
+    color: #004469ff;
+    font-family: 'Muli', sans-serif ;
+
+}
+.form__input{
+    width: 80%;
+    padding: .75rem;
+    margin: .5rem 0;
+    border: none;
+    border-bottom: 3px solid rgb(3, 95, 145);
+    background-color: #96c4da67;
+    font-family:'Muli', sans-serif ;
+    font-size: 1rem;
+    color: rgb(1, 48, 73);
+
+    
+}
+.form__section p{
+    color: #333;
+    font-family:'Muli', sans-serif ;
+}
+.form__input:focus{
+    background-color: rgb(15, 64, 90);
+    outline: none;
+    background: linear-gradient(to bottom, transparent, #333);
+}
+
+.form__input-boton{
+    width: 80%;
+    padding: .90rem;
+    margin: .5rem 0;
+    border: none;
+    
+    background-color:#035f91 ;
+    font-family:'Muli', sans-serif ;
+    font-size: 1rem;
+    color: rgb(1, 48, 73);
+
+}
