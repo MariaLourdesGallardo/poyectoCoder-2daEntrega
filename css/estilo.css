@@ -4,17 +4,30 @@
 
 }
 /*------header-------*/
-nav{
-    justify-content: end;   
+
+.navbar-toggler{
+ 
+    border: none;
+    color: #035f91;
 }
 
+.navbar-toggler-icon{
+    font-size: 1.5rem;
+    color: #035f91de !important;
+}
+
+
+/*--No he podido cambiar el color al icono
+    Si puede me enseña como, muchas gracias!--*/
 
 .nav-link{
-    color:rgb(9, 100, 139)
+    color: #035f91 !important;
+    
 }
-.navbar-toggler-icon{
-    color:rgb(9, 100, 139) ;
+.collapse navbar-collapse{
+    width: 50%;
 }
+
 
 /*-----hero-----*/
 
